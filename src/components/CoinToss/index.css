@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+}
+.card-container {
+  height: 70vh;
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.heading {
+  color: #e2a139;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.head-tails-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.img-coins {
+  height: 35vh;
+  width: 35vh;
+}
+.button-coin-toss {
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #e2a139;
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+}
+.container_count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+  .container_count {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+  }
+}
+.count_show {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 26px;
+  margin-right: 26px;
+}
